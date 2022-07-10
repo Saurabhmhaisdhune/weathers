@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(209, 255, 255);
+    }
+h1{
+    font-size: 45px;
+    background-color: rgb(221, 250, 210);
+    color: rgb(62, 12, 64);
+    margin: -0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    }
+
+.search{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    
+    }
+#searchbar{
+width: 800px;
+padding: 20px;
+font-size: 30px;
+
+}
+.button{
+width: 200px;
+padding: 20px;
+font-size: 30px;
+border-radius: 10px;
+cursor: pointer;
+background-color: none;
+}
+
+.data{
+    text-align: center;
+    top: 900px;
+    border: 20px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    border: 10px;
+    border-radius: 10px;
+}
+.qoute{
+    position: absolute;
+    left: 30%;
+    top: 50px;
+    text-align: center;
+    font-size:40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.button:hover{
+    background-color: rgb(129, 192, 255);
+}
+
+#searchbar:hover{
+    background-color: rgb(252, 243, 231);
+}
+@media (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+      
+    }
+  }
+  @media (max-width: 800px) {
+    #searchbar{   
+      width: 200px;
+      
+    }
+  }
+  @media (max-width: 800px) {
+    .img-earth{   
+      left: 60px;
+      
+    }
+  }
+
